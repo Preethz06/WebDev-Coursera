@@ -1,0 +1,130 @@
+<style>
+	
+	body{
+		font-family: Arial;
+		margin:0;
+		background-color: lightblue;
+	}
+
+	* {box-sizing: border-box;
+	}
+
+	h1{
+		text-align: center;
+		margin-bottom: 100px;
+		font-size: 1.75em;
+	}
+
+	#div1{
+		background-color: pink;
+	}
+
+	#div3{
+		background-color: red;
+		color: white;
+	}
+
+	#div5{
+		background-color: yellow;
+	}
+
+	
+
+	#div2, #div4, #div6{
+		float: left;
+		padding: 10px;
+	}
+
+	@media (min-width: 992px){
+	section{
+		background-color: grey;
+		width: 30.33%;
+		float: left;
+		border: 1px solid black;
+		margin-left: 2.2525%;
+		margin-bottom: 2.2525%;
+		}
+
+	#div1, #div3, #div5{
+			float:right;
+			width:25%;
+			font-size: 1.25em;
+			text-align: center;
+			border: 1px solid black;
+			position: relative;
+			bottom: 1px;
+			left: 1px;
+		}
+
+
+	}
+
+	@media (min-width: 768px) and (max-width: 991px){
+
+		section.cat{
+		background-color: grey;
+		width: 46%;
+		float: left;
+		border: 1px solid black;
+		margin-left: 2.666%;
+		margin-bottom: 1%;
+	}
+
+	h1{
+		margin-bottom: 35px;
+	}
+	#div1, #div3, #div5{
+			float:right;
+			width:45%;
+			font-size: 1.25em;
+			text-align: center;
+			border: 1px solid black;
+			position: relative;
+			bottom: 1px;
+			left: 1px;
+		}
+
+	#div5{
+		width:23%;
+		font-size: 1.25em;
+	}
+	
+	#sec{
+		width:94.668%;
+		margin:2.666%;
+		background-color: grey;
+		float: left;
+		border: 1px solid black;
+
+	}
+	}
+
+	@media (max-width: 767px){
+
+		#div1, #div3, #div5{
+			float:right;
+			width:48%;
+			font-size: 1.25em;
+			text-align: center;
+			border: 1px solid black;
+			position: relative;
+			bottom: 1px;
+			left: 1px;
+		}
+
+	section{
+		background-color: grey;
+		width: 86%;
+		float: left;
+		border: 1px solid black;
+		margin-left: 7%;
+		margin-bottom: 3%;
+		}
+
+	}
+
+
+
+
+
+</style>
